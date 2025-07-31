@@ -1,4 +1,4 @@
-# IT Company Website
+# WeeeBuch
 
 ## Overview
 This project is a modern minimalist website for an IT company. It showcases the company's services, provides information about the company, and includes a contact section for potential clients.
