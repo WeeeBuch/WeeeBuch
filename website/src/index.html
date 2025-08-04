@@ -1,16 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <title> </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
-    <footer>
-    </footer>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WeeeBuch</title>
+    <link rel="icon" type="image/png" href="..\website\src\assets\LogoTextOriznute2.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
 
-    <script src="js/main.js"></script>
+</head>
+<body class="bg-black text-white font-sans">
+
+
+    <section class="min-h-screen flex items-center justify-center px-6 bg-black text-white">
+
+    <div class="max-w-5xl text-center">
+        <br>        
+        <br>        
+        <br>        
+        <br>
+        <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4">
+        Tools, that <span class="text-orange-500">ignite </span> your productivity.
+        </h1>
+        <br>
+        <p class="text-gray-300 text-lg md:text-xl mb-8">
+        We create focused utilities that streamline digital workflows.
+        </p>
+        <br>
+        <br>
+        <div class="flex flex-col md:flex-row items-center justify-center gap-4 mb-10">
+        <a href="#produkty" class="bg-orange-600 hover:bg-orange-700 px-6 py-3 rounded-xl text-white font-semibold transition">
+            Our projects
+        </a>
+
+        <a href="#kontakt" class="text-red-400 hover:underline">
+            Contact us
+        </a>
+        </div>
+        <br>
+        <br>
+        <div class="flex justify-center">
+            <img src="..\website\src\assets\LogoTextOriznute2.png" alt="Logo" class="w-full max-w-[430px] h-auto mx-auto animate-pulse">
+        </div>
+    </div>
+    </section>
+
+
+
+    <section id="produkty" class="py-24 px-6 bg-gradient-to-b from-black to-gray-950">
+    <div class="max-w-6xl mx-auto text-center mb-16"  >
+        <h2 class="text-4xl font-bold text-orange-500 mb-4">Our projects</h2>
+        <p class="text-gray-400 text-lg max-w-2xl mx-auto">We build small tools that are fast, focused, and reliable. Here's a glimpse at some of the
+             more interesting things we've made (or are working on).</p>
+    </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+        <!-- Card 1 -->
+        <div class="bg-white/5 backdrop-blur-md border border-orange-500/30 rounded-2xl p-6 shadow-xl hover:shadow-orange-500/20 transition duration-300">
+        <div class="text-3xl mb-4">⚙️</div>
+        <h3 class="text-xl font-semibold text-orange-400 mb-2">KubeCrafer</h3>
+        <p class="text-gray-300 text-sm mb-4">KubeCrafter is a modern web application designed to help both beginner and advanced modders create and edit custom Minecraft recipes. 
+            It supports generating recipes in KubeJS and standard JSON formats, making modding more accessible and efficient.</p>
+        <a href="#" class="text-orange-500 hover:underline text-sm">Zjistit více →</a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white/5 backdrop-blur-md border border-orange-500/30 rounded-2xl p-6 shadow-xl hover:shadow-orange-500/20 transition duration-300">
+        <div class="text-3xl mb-4">📝</div>
+        <h3 class="text-xl font-semibold text-orange-400 mb-2">More soon..</h3>
+        <p class="text-gray-300 text-sm mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus veritatis labore commodi blanditiis soluta, eos suscipit repudiandae explicabo ipsum illum.</p>
+        <a href="#" class="text-orange-500 hover:underline text-sm">Zjistit více →</a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white/5 backdrop-blur-md border border-orange-500/30 rounded-2xl p-6 shadow-xl hover:shadow-orange-500/20 transition duration-300">
+        <div class="text-3xl mb-4">📊</div>
+        <h3 class="text-xl font-semibold text-orange-400 mb-2">More soon..</h3>
+        <p class="text-gray-300 text-sm mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi obcaecati quibusdam earum aperiam vitae quaerat dicta sequi soluta possimus nam?</p>
+        <a href="#" class="text-orange-500 hover:underline text-sm">Zjistit více →</a>
+        </div>
+        <br>
+        <!-- Card 4 -->
+        <div class="bg-white/5 backdrop-blur-md border border-orange-500/30 rounded-2xl p-6 shadow-xl hover:shadow-orange-500/20 transition duration-300">
+        <div class="text-3xl mb-4">📦</div>
+    </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+
+        <br>
+        <br>
+
+    <section id="kontakt" class="py-20 px-6 bg-black">
+        <div class="max-w-xl mx-auto text-center">
+        <h2 class="text-3xl font-bold text-orange-500 mb-4">Connect with us</h2>
+        <p class="text-gray-400 mb-8">Have a question, suggestion, or interested in working with us? Get in touch.</p>
+        <a href="mailto:Weeebuch@action-games.cz" class="text-red-400 text-lg hover:underline">Weeebuch@action-games.cz</a>
+        </div>
+    </section>
+    <script>
+    AOS.init();
+    </script>
+  <footer class="bg-gray-950 text-gray-500 text-center py-6 text-sm border-t border-gray-800">
+    &copy; 2025 Utilify. Všechna práva vyhrazena.
+  </footer>
+
 </body>
 </html>
+
